@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mahakaal</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #000428, #004e92);
+            color: white;
+        }
+
+        .container {
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 50px;
+            color: #00ffff;
+            text-shadow: 0 0 20px #00ffff;
+        }
+
+        .om {
+            font-size: 80px;
+            margin: 20px 0;
+            animation: glow 2s infinite alternate;
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 10px #fff; }
+            to { text-shadow: 0 0 30px #00ffff; }
+        }
+
+        p {
+            font-size: 20px;
+            width: 70%;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 18px;
+            color: #ccc;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            margin-top: 20px;
+            background-color: #00ffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: white;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>🌙 jai mahakaal🌙</h1>
+
+        <div class="om">🕉️</div>
+
+        <p>
+            Mahakaal is a sacred festival dedicated to Lord Shiva.
+            Devotees observe fast, chant mantras, and offer prayers to seek blessings
+            for peace, prosperity, and spiritual growth.
+        </p>
+
+        <button onclick="showMessage()">Click for Blessings</button>
+
+        <div class="footer">
+            jai mahakaal 🙏
+        </div>
+    </div>
+
+    <script>
+        function showMessage() {
+            alert("Om Namah Shivaya 🙏 May Lord Shiva bless you!");
+        }
+    </script>
+
+</body>
+</html>
